@@ -1,0 +1,83 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/*utilities*/
+
+/*menu*/
+nav.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;/*horizontally*/
+    align-items: center;/*vertically*/
+    height: 45px;
+    background-color: white;
+}
+nav.menu .frame-logo{
+    height: 32px;
+    padding-left: 15px;
+}
+nav.menu a{
+    color: black;
+    margin-right: 30px;
+}
+.complete-logo, .link-news, .link-menu, .link-search{
+    display: none;/*hiding elements*/
+}
+.link-login{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+nav.menu a.link-subs{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding:15px 14px 12px 14px;
+}
+nav.menu a.link-subs:hover{
+    background-color: #ffcc00;
+    color: black;
+}
+nav.mennu a.link-arrows{
+    color: black;
+
+}
+/*header*/
+header{
+    height: 250px;
+}
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 55px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+
+}
+header p{
+text-align: center;
+padding-top: 30px;
+font-size: 18px;
+}
+header .line{
+    
+}
